@@ -1,8 +1,8 @@
-## Hi there 👋
+# Hi there <span role="img" aria-label="waving hand">👋</span>
+
+**Abokaes/Abokaes** is a <span role="img" aria-label="sparkles">✨</span> _special_ <span role="img" aria-label="sparkles">✨</span> repository because its `README.md` (this file) appears on your GitHub profile.
 
 <!--
-**Abokaes/Abokaes** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
 Here are some ideas to get you started:
 
 - 🔭 I’m currently working on ...
