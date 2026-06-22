@@ -1,0 +1,6 @@
+# Secrets and credentials
+.env
+*.key
+*.pem
+node_modules/
+.DS_Store
