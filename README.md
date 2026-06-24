@@ -1,4 +1,8 @@
-## Hi there 👋
+## Hi there <span role="img" aria-label="waving hand">👋</span>
+
+### Quick Links
+- [My Projects](https://github.com/Abokaes?tab=repositories)
+- [Contact Me](https://github.com/Abokaes)
 
 <!--
 **Abokaes/Abokaes** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
