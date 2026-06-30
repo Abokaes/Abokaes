@@ -1,8 +1,13 @@
-## Hi there 👋
+## Hi there <span role="img" aria-label="waving hand">👋</span>
 
-<!--
 **Abokaes/Abokaes** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
+### Quick Links 🚀
+- [📂 All Repositories](https://github.com/Abokaes?tab=repositories)
+- [📜 Public Gists](https://github.com/Abokaes?tab=gists)
+- [👤 GitHub Profile](https://github.com/Abokaes)
+
+<!--
 Here are some ideas to get you started:
 
 - 🔭 I’m currently working on ...
