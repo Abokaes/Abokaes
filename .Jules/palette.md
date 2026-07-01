@@ -1,0 +1,3 @@
+## 2026-02-24 - GitHub Markdown Accessibility Limitations
+**Learning:** GitHub's Markdown renderer (CommonMark with GFM extensions) strips HTML attributes like `role` and `aria-label` from `<span>` or other tags in `README.md` files for security reasons. This means wrapping emojis in `<span role="img" aria-label="...">` for accessibility is ineffective on GitHub and only clutters the raw source code.
+**Action:** Use native emoji characters directly in READMEs, as modern screen readers handle them relatively well, and avoid using accessibility-focused HTML attributes that will be stripped by the platform.
