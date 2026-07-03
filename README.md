@@ -1,7 +1,14 @@
 ## Hi there 👋
 
-<!--
 **Abokaes/Abokaes** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+
+### 🔗 Quick Links
+
+- 📁 [My Repositories](https://github.com/Abokaes?tab=repositories)
+- ⭐ [Starred Repositories](https://github.com/Abokaes?tab=stars)
+- 👥 [Followers](https://github.com/Abokaes?tab=followers)
+
+---
 
 Here are some ideas to get you started:
 
@@ -13,4 +20,3 @@ Here are some ideas to get you started:
 - 📫 How to reach me: ...
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
--->
