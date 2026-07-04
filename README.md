@@ -1,16 +1,20 @@
-## Hi there 👋
+# Hi there! I'm Abokaes 👋
 
-<!--
-**Abokaes/Abokaes** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Welcome to my GitHub profile! I am a developer passionate about creating efficient and user-friendly software.
 
-Here are some ideas to get you started:
+### 🔭 Current Focus
+- 🔭 I’m currently working on open-source projects and improving my technical skills.
+- 🌱 I’m currently learning about scalable systems and modern development workflows.
+- 👯 I’m looking to collaborate on projects that make a positive impact.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 🤝 Connect & Support
+- 💬 Ask me about software development, tech trends, or project ideas.
+- 📫 How to reach me: Connect with me through my GitHub profile or projects.
+- ⚡ Fun fact: I love exploring new technologies and solving complex problems.
+
+---
+
+### 🔗 Quick Links
+- [📁 My Repositories](https://github.com/Abokaes?tab=repositories)
+- [⭐ Stars Given](https://github.com/Abokaes?tab=stars)
+- [👥 My Followers](https://github.com/Abokaes?tab=followers)
