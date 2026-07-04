@@ -1,9 +1,14 @@
-## Hi there 👋
+# Hi there, I'm Abokaes 👋
 
-<!--
-**Abokaes/Abokaes** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm a developer passionate about building accessible and user-friendly applications.
 
-Here are some ideas to get you started:
+### 🛠 Quick Links
+
+- [📂 Repositories](https://github.com/Abokaes?tab=repositories)
+- [🌟 Starred Projects](https://github.com/Abokaes?tab=stars)
+- [📈 Activity](https://github.com/Abokaes?tab=overview)
+
+### 🔭 About Me
 
 - 🔭 I’m currently working on ...
 - 🌱 I’m currently learning ...
@@ -11,6 +16,5 @@ Here are some ideas to get you started:
 - 🤔 I’m looking for help with ...
 - 💬 Ask me about ...
 - 📫 How to reach me: ...
-- 😄 Pronouns: ...
+- 😄 Pronouns: [Add your pronouns]
 - ⚡ Fun fact: ...
--->
