@@ -1,16 +1,12 @@
-## Hi there 👋
+# Hi there 👋
 
-<!--
-**Abokaes/Abokaes** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I am a passionate software engineer dedicated to building accessible,
+user-centric applications and contributing to the open-source community.
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- 🔭 I’m currently working on enhancing web accessibility and user experiences.
+- 🌱 I’m currently learning advanced frontend architectures and design systems.
+- 👯 I’m looking to collaborate on impactful open-source projects.
+- 🤔 I’m looking for help with scaling distributed systems.
+- 💬 Ask me about web accessibility, UX design, or React development.
+- 📫 How to reach me: You can find me on GitHub or reach out via email.
+- ⚡ Fun fact: I love discovering micro-UX improvements in everyday life.
