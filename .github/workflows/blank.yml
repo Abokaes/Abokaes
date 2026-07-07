@@ -7,8 +7,20 @@ on:
   # Triggers the workflow on push or pull request events but only for the "main" branch
   push:
     branches: [ "main" ]
+    # Bolt ⚡: Ignore changes to documentation and agent files to prevent redundant CI runs
+    paths-ignore:
+      - 'LICENSE'
+      - 'README.md'
+      - '.jules/**'
+      - '.Jules/**'
   pull_request:
     branches: [ "main" ]
+    # Bolt ⚡: Ignore changes to documentation and agent files to prevent redundant CI runs
+    paths-ignore:
+      - 'LICENSE'
+      - 'README.md'
+      - '.jules/**'
+      - '.Jules/**'
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -19,11 +31,14 @@ jobs:
   build:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
+    # Bolt ⚡: Prevent runaway processes from consuming excessive Actions minutes
+    timeout-minutes: 5
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v4
+      # Bolt ⚡: Pinning to a specific SHA for stability and security
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
