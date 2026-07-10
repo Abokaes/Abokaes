@@ -7,11 +7,27 @@ on:
   # Triggers the workflow on push or pull request events but only for the "main" branch
   push:
     branches: [ "main" ]
+    # Bolt ⚡: Skip CI for non-functional changes to save Actions minutes
+    paths-ignore:
+      - 'LICENSE'
+      - 'README.md'
+      - '.jules/**'
+      - '.Jules/**'
   pull_request:
     branches: [ "main" ]
+    # Bolt ⚡: Skip CI for non-functional changes to save Actions minutes
+    paths-ignore:
+      - 'LICENSE'
+      - 'README.md'
+      - '.jules/**'
+      - '.Jules/**'
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
+
+# Bolt ⚡: Principle of least privilege for efficiency and security
+permissions:
+  contents: read
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -19,11 +35,14 @@ jobs:
   build:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
+    # Bolt ⚡: Prevent hung jobs from wasting resources
+    timeout-minutes: 5
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v4
+      # Bolt ⚡: Pin action to a specific SHA for stability and performance
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
