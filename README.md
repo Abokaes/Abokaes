@@ -1,16 +1,19 @@
-## Hi there 👋
+# Hi there <span role="img" aria-label="Waving hand">👋</span>
 
-<!--
-**Abokaes/Abokaes** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Welcome to my GitHub profile! I am a developer passionate about building
+impactful and accessible software solutions.
 
-Here are some ideas to get you started:
+- <span role="img" aria-label="Telescope">🔭</span> I am currently working on
+  improving open-source software.
+- <span role="img" aria-label="Seedling">🌱</span> I am currently learning
+  about advanced web technologies and accessibility standards.
+- <span role="img" aria-label="Dancing people">👯</span> I am looking to
+  collaborate on projects that focus on user experience.
+- <span role="img" aria-label="Speech balloon">💬</span> Ask me about
+  frontend development and accessibility.
+- <span role="img" aria-label="Mailbox">📫</span> How to reach me: Feel free
+  to open an issue or reach out via my profile contact information.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+> "Technology is best when it brings people together."
