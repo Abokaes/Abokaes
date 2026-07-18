@@ -1,16 +1,16 @@
-## Hi there 👋
+# Hi there <span role="img" aria-label="Waving hand">👋</span>
 
-<!--
-**Abokaes/Abokaes** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Welcome to my profile! I am a software engineer focused on building clean,
+accessible, and high-performance applications.
 
-Here are some ideas to get you started:
+## About Me
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- 🔭 I’m currently working on open-source translation plugins and tools.
+- 🌱 I’m currently learning advanced frontend accessibility (a11y) techniques.
+- 👯 I’m looking to collaborate on accessible web applications and developer
+  tooling.
+- 🤔 I’m looking for help with visual studio code extension APIs.
+- 💬 Ask me about Java, localization, and frontend development.
+- 📫 How to reach me: Open an issue or contact me via my GitHub profile.
+- 😄 Pronouns: He/Him.
+- ⚡ Fun fact: I love localized user experiences!
