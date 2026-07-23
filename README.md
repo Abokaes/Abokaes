@@ -1,16 +1,26 @@
-## Hi there 👋
+# Hi there <span role="img" aria-label="waving hand">👋</span>
 
-<!--
-**Abokaes/Abokaes** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Welcome to my GitHub profile! I am a software engineer passionate about
+building elegant, accessible, and high-performance applications. I love
+open-source, learning new technologies, and crafting delightful user
+experiences.
 
-Here are some ideas to get you started:
+## <span role="img" aria-label="telescope">🔭</span> What I Am Up To
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- <span role="img" aria-label="seedling">🌱</span> Exploring state-of-the-art
+  frontend design and modern accessibility practices.
+- <span role="img" aria-label="rocket">🚀</span> Designing robust backend API
+  systems and secure CI/CD pipelines.
+- <span role="img" aria-label="handshake">🤝</span> Always looking to
+  collaborate on innovative open-source projects.
+
+## <span role="img" aria-label="hammer and wrench">🛠️</span> Tech Stack
+
+- **Languages:** JavaScript, TypeScript, Python, HTML/CSS, SQL
+- **Frameworks:** React, Next.js, Node.js, FastAPI, Express
+- **Tools:** Git, Docker, GitHub Actions, PostgreSQL, Linux
+
+## <span role="img" aria-label="mailbox">📫</span> Connect With Me
+
+If you would like to collaborate, ask a question, or just say hello, feel free
+to get in touch by opening an issue on the [Feedback Board](https://github.com/Abokaes/Abokaes/issues).
