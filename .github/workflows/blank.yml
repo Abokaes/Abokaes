@@ -1,4 +1,4 @@
-# This is a basic workflow to help you get started with Actions
+# Optimized basic workflow for CI execution
 
 name: CI
 
@@ -7,11 +7,31 @@ on:
   # Triggers the workflow on push or pull request events but only for the "main" branch
   push:
     branches: [ "main" ]
+    # Optimize execution by ignoring non-functional files to avoid triggering redundant CI runs
+    paths-ignore:
+      - 'README.md'
+      - 'LICENSE'
+      - '.jules/**'
   pull_request:
     branches: [ "main" ]
+    # Optimize execution by ignoring non-functional files to avoid triggering redundant CI runs
+    paths-ignore:
+      - 'README.md'
+      - 'LICENSE'
+      - '.jules/**'
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
+
+# Concurrency group to automatically cancel in-progress runs when a new push/PR is made
+# Saves significant runner minutes by avoiding parallel builds of superseded commits
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+# Restrict default permissions to read-only for improved security
+permissions:
+  contents: read
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -20,10 +40,15 @@ jobs:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
+    # Set job-level timeout to prevent hung builds from wasting execution minutes
+    timeout-minutes: 5
+
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v4
+      # Pin to verified commit SHA 11bd71901bbe5b1630ceea73d27597364c9af683 for actions/checkout@v4
+      - name: Check out repository
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
