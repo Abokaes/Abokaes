@@ -7,11 +7,30 @@ on:
   # Triggers the workflow on push or pull request events but only for the "main" branch
   push:
     branches: [ "main" ]
+    # Skip runs for changes that do not affect the build or tests (performance optimization)
+    paths-ignore:
+      - 'README.md'
+      - 'LICENSE'
+      - '.jules/**'
   pull_request:
     branches: [ "main" ]
+    # Skip runs for changes that do not affect the build or tests (performance optimization)
+    paths-ignore:
+      - 'README.md'
+      - 'LICENSE'
+      - '.jules/**'
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
+
+# Concurrency group to cancel redundant runs in progress (performance optimization)
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+# Limit workflow permissions to only read repository content (security hardening)
+permissions:
+  contents: read
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -19,11 +38,14 @@ jobs:
   build:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
+    # Limit execution time of the job to prevent runaway runner times (performance optimization)
+    timeout-minutes: 5
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v4
+      # Pinned to commit SHA 11bd71901bbe5b1630ceea73d27597364c9af683 of actions/checkout@v4 for security
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
