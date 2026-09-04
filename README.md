@@ -19,7 +19,8 @@
      LAYER 1: THE ROYAL CREST - SVG Masterpiece
      ══════════════════════════════════════════════════════ -->
 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500" width="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500" width="100%" role="img" aria-label="Royal Crest of Abokaes - Sovereign of the Digital Realm">
+  <title>Royal Crest of Abokaes - Sovereign of the Digital Realm</title>
   <defs>
     <!-- Royal Gold Gradient -->
     <linearGradient id="royalGold" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -167,7 +168,7 @@
      LAYER 2: THE ROYAL TITLE - Typewriter Effect
      ═══════════════════════════════════════════════════════ -->
 
-# <span style="font-family: 'Georgia', serif; font-size: 3em; background: linear-gradient(45deg, #FFD700, #FFA500, #FF6347, #FFD700); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; background-size: 300% 300%; animation: gradient 4s ease infinite;">👑 Abokaes</span>
+# <span id="top"></span><span style="font-family: 'Georgia', serif; font-size: 3em; background: linear-gradient(45deg, #FFD700, #FFA500, #FF6347, #FFD700); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; background-size: 300% 300%; animation: gradient 4s ease infinite;">👑 Abokaes</span>
 
 <style>
 @keyframes gradient {
@@ -187,9 +188,9 @@
 .float-anim { animation: float 3s ease-in-out infinite; }
 </style>
 
-### <span style="color: #FFD700; font-family: 'Georgia', serif;">️ Sovereign of the Digital Realm ⚜️</span>
+## <span style="color: #FFD700; font-family: 'Georgia', serif;">👑 Sovereign of the Digital Realm ⚜️</span>
 
-### <span style="color: #C0C0C0; font-size: 1.1em;">مهندس برمجيات ملكي | صانع التاج الرقمي منذ 1996</span>
+## <span style="color: #C0C0C0; font-size: 1.1em;">مهندس برمجيات ملكي | صانع التاج الرقمي منذ 1996</span>
 
 <br/>
 
@@ -211,7 +212,7 @@
      LAYER 4: THE ROYAL MANIFESTO
      ═══════════════════════════════════════════════════════ -->
 
-##  المرسوم الملكي | The Royal Manifesto
+## 📜 المرسوم الملكي | The Royal Manifesto
 
 <div style="background: linear-gradient(135deg, #1a0a2e 0%, #0a0a0f 100%); border: 2px solid #FFD700; border-radius: 15px; padding: 30px; margin: 20px 0; box-shadow: 0 0 30px rgba(255, 215, 0, 0.2);">
 
@@ -222,6 +223,8 @@
 <p align="right" style="color: #FFD700; font-style: italic;">— Abokaes, 2026</p>
 
 </div>
+
+<p align="right"><a href="#top" title="Back to top">⬆️ Back to top</a></p>
 
 <br/>
 
@@ -259,6 +262,8 @@
 </table>
 
 </div>
+
+<p align="right"><a href="#top" title="Back to top">⬆️ Back to top</a></p>
 
 <br/>
 
@@ -332,7 +337,7 @@ impl RoyalArsenal {
 
 <div style="background: linear-gradient(135deg, #1a1a2e, #0a0a0f); border: 2px solid #00CED1; border-radius: 15px; padding: 25px; box-shadow: 0 0 20px rgba(0,206,209,0.1);">
 
-###  Arabic-for-VS-Code
+### 🌐 Arabic-for-VS-Code
 <span style="background: #00CED1; color: #000; padding: 3px 10px; border-radius: 10px; font-size: 0.8em; font-weight: bold;">PUBLIC</span>
 
 > **جسر اللغات** | The Language Bridge
@@ -362,7 +367,7 @@ impl RoyalArsenal {
 
 <div style="background: linear-gradient(135deg, #1a1a2e, #0a0a0f); border: 2px solid #9370DB; border-radius: 15px; padding: 25px; box-shadow: 0 0 20px rgba(147,112,219,0.1);">
 
-###  Abokaes (Meta)
+### 👑 Abokaes (Meta)
 <span style="background: #9370DB; color: #fff; padding: 3px 10px; border-radius: 10px; font-size: 0.8em; font-weight: bold;">PUBLIC</span>
 
 > **عرش المملكة** | The Royal Throne
@@ -386,3 +391,6 @@ impl RoyalArsenal {
 ## 📖 السجلات الملكية | Royal Chronicles
 
 <div style="background: #0a0a0f; border: 1px solid #333; border-radius: 10px; padding: 20px; font-family: 'Courier New', monospace;">
+</div>
+
+<p align="right"><a href="#top" title="Back to top">⬆️ Back to top</a></p>
