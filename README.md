@@ -167,7 +167,7 @@
      LAYER 2: THE ROYAL TITLE - Typewriter Effect
      ═══════════════════════════════════════════════════════ -->
 
-# <span style="font-family: 'Georgia', serif; font-size: 3em; background: linear-gradient(45deg, #FFD700, #FFA500, #FF6347, #FFD700); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; background-size: 300% 300%; animation: gradient 4s ease infinite;">👑 Abokaes</span>
+# <span id="top"></span><span style="font-family: 'Georgia', serif; font-size: 3em; background: linear-gradient(45deg, #FFD700, #FFA500, #FF6347, #FFD700); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; background-size: 300% 300%; animation: gradient 4s ease infinite;">👑 Abokaes</span>
 
 <style>
 @keyframes gradient {
@@ -223,6 +223,8 @@
 
 </div>
 
+<p align="right"><a href="#top">⬆️ العودة إلى الأعلى | Back to top</a></p>
+
 <br/>
 
 <!-- ═══════════════════════════════════════════════════════
@@ -259,6 +261,8 @@
 </table>
 
 </div>
+
+<p align="right"><a href="#top">⬆️ العودة إلى الأعلى | Back to top</a></p>
 
 <br/>
 
@@ -304,6 +308,8 @@ impl RoyalArsenal {
 ```
 
 </div>
+
+<p align="right"><a href="#top">⬆️ العودة إلى الأعلى | Back to top</a></p>
 
 <br/>
 
@@ -376,6 +382,8 @@ impl RoyalArsenal {
 </div>
 
 </div>
+
+<p align="right"><a href="#top">⬆️ العودة إلى الأعلى | Back to top</a></p>
 
 <br/>
 
