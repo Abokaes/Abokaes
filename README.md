@@ -19,7 +19,8 @@
      LAYER 1: THE ROYAL CREST - SVG Masterpiece
      ══════════════════════════════════════════════════════ -->
 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500" width="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500" width="100%" role="img" aria-label="Crown Shine - Royal Crest Banner">
+  <title>Crown Shine - Royal Crest Banner</title>
   <defs>
     <!-- Royal Gold Gradient -->
     <linearGradient id="royalGold" x1="0%" y1="0%" x2="100%" y2="100%">
