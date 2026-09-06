@@ -2,6 +2,10 @@
 
 name: CI
 
+# Restrict default permissions to read-only for least privilege
+permissions:
+  contents: read
+
 # Controls when the workflow will run
 on:
   # Triggers the workflow on push or pull request events but only for the "main" branch
@@ -20,10 +24,13 @@ jobs:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
+    # Set job timeout to prevent execution runaway and excessive resource consumption
+    timeout-minutes: 5
+
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v4
+      # Pin actions to full commit SHA for supply chain security
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
