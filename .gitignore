@@ -1,0 +1,19 @@
+# Secrets and environment variables
+.env
+.env.*
+*.key
+*.pem
+*.cert
+
+# Dependency directories
+node_modules/
+
+# Build artifacts
+dist/
+build/
+out/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
