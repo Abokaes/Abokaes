@@ -13,6 +13,12 @@ on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
+# Prevents redundant workflow runs on the same branch by canceling older ones.
+# This saves runner resources and speeds up the feedback loop.
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
@@ -20,10 +26,16 @@ jobs:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
+    # Prevents the job from hanging indefinitely and wasting runner time.
+    timeout-minutes: 5
+
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      # fetch-depth: 1 performs a shallow clone, reducing network and disk usage.
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
