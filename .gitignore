@@ -1,0 +1,17 @@
+# Secrets and environment files
+.env
+.env.*
+*.key
+*.pem
+*.cert
+*.crt
+
+# Node and package manager artifacts
+node_modules/
+dist/
+build/
+.pnpm-debug.log*
+
+# OS specific files
+.DS_Store
+Thumbs.db
