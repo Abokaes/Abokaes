@@ -1,0 +1,23 @@
+# Security & Credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.cert
+*.crt
+*.pfx
+
+# Dependency directories & logs
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# System files & IDEs
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
