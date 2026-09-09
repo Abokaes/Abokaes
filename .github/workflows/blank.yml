@@ -7,11 +7,32 @@ on:
   # Triggers the workflow on push or pull request events but only for the "main" branch
   push:
     branches: [ "main" ]
+    # Bolt: Skip unnecessary runs for documentation and metadata changes
+    paths-ignore:
+      - 'README.md'
+      - 'LICENSE'
+      - '.gitignore'
+      - '.jules/**'
+      - '.Jules/**'
+      - 'SECURITY.md'
   pull_request:
     branches: [ "main" ]
+    # Bolt: Skip unnecessary runs for documentation and metadata changes
+    paths-ignore:
+      - 'README.md'
+      - 'LICENSE'
+      - '.gitignore'
+      - '.jules/**'
+      - '.Jules/**'
+      - 'SECURITY.md'
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
+
+# Bolt: Cancel in-progress runs for the same workflow/branch to save runner resources
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -19,18 +40,20 @@ jobs:
   build:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
+    # Bolt: Prevent resource waste if the job hangs
+    timeout-minutes: 5
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          show-progress: false # Bolt: Reduces log bloat and improves execution speed slightly
 
-      # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: echo Hello, world!
-
-      # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
+      # Bolt: Combined into a single step to reduce shell overhead
+      - name: Run scripts
         run: |
+          echo Hello, world!
           echo Add other actions to build,
           echo test, and deploy your project.
