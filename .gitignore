@@ -1,0 +1,17 @@
+# Sensitive files & environment variables
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# System & IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
