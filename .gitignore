@@ -1,0 +1,22 @@
+# Secrets and environment files
+.env
+*.env
+.env.*
+*.key
+*.pem
+*.cert
+*.crt
+
+# Dependencies
+node_modules/
+.pnpm-debug.log*
+
+# Build artifacts & cache
+dist/
+build/
+.cache/
+*.tsbuildinfo
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
