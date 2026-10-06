@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Environment and Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Build and IDE
+dist/
+build/
+.vscode/
+.idea/
+.DS_Store
+
+# Testing and Logs
+coverage/
+*.log
