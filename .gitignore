@@ -1,0 +1,43 @@
+# Security & Sensitive Files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.asc
+
+# Environment & Dependencies
+node_modules/
+.venv/
+venv/
+env/
+
+# Build & Coverage Output
+dist/
+build/
+coverage/
+.next/
+.nuxt/
+
+# Logs & Temp Files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+tmp/
+temp/
+
+# OS & Editor Metadata
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
