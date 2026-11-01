@@ -7,11 +7,26 @@ on:
   # Triggers the workflow on push or pull request events but only for the "main" branch
   push:
     branches: [ "main" ]
+    # Skip CI runs on push when only documentation or meta files are changed
+    paths-ignore:
+      - "README.md"
+      - "LICENSE"
+      - ".jules/**"
   pull_request:
     branches: [ "main" ]
+    # Skip CI runs on PRs when only documentation or meta files are changed
+    paths-ignore:
+      - "README.md"
+      - "LICENSE"
+      - ".jules/**"
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
+
+# Cancel redundant in-progress workflow runs for the same branch/PR to save CI runner minutes
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
